@@ -1,0 +1,48 @@
+.about{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 75%;
+        tr{
+          td{
+            .Delete{
+              color: white;
+              background-color: red;
+              cursor: pointer;
+              font-style: 20px;
+              border-radius: 8px;
+              padding: 8px;
+              
+            }
+            .Details{
+              color: white;
+              background-color: green;
+              cursor: pointer;
+              padding: 8px;
+              border-radius: 8px;
+            }
+          }
+        }
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #customers tr:hover {background-color: #ddd;}
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
+}
